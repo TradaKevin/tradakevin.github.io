@@ -2144,42 +2144,6 @@ img {
     opacity: 1;
     transform: translateY(0);
   }
-
-  /* Animate progress on touch/click for mobile */
-  .tech-stack-block:active .skill-progress-arc[data-progress="75"],
-  .tech-stack-block.active .skill-progress-arc[data-progress="75"] {
-    stroke-dashoffset: 62.8;
-  }
-
-  .tech-stack-block:active .skill-progress-arc[data-progress="85"],
-  .tech-stack-block.active .skill-progress-arc[data-progress="85"] {
-    stroke-dashoffset: 37.68;
-  }
-
-  .tech-stack-block:active .skill-progress-arc[data-progress="60"],
-  .tech-stack-block.active .skill-progress-arc[data-progress="60"] {
-    stroke-dashoffset: 100.48;
-  }
-
-  .tech-stack-block:active .skill-progress-arc[data-progress="70"],
-  .tech-stack-block.active .skill-progress-arc[data-progress="70"] {
-    stroke-dashoffset: 75.36;
-  }
-
-  .tech-stack-block:active .skill-progress-arc[data-progress="80"],
-  .tech-stack-block.active .skill-progress-arc[data-progress="80"] {
-    stroke-dashoffset: 50.24;
-  }
-
-  .tech-stack-block:active .skill-progress-arc[data-progress="30"],
-  .tech-stack-block.active .skill-progress-arc[data-progress="30"] {
-    stroke-dashoffset: 175.84;
-  }
-
-  .tech-stack-block:active .tech-stack-block-glow-wrapper,
-  .tech-stack-block.active .tech-stack-block-glow-wrapper {
-    opacity: 1;
-  }
 }
 
 /* Radial bar container - positioned ABOVE icon */
@@ -2239,41 +2203,6 @@ img {
 /* Background arc - darker gray */
 .skill-radial-bar path:first-of-type {
   stroke: rgba(255, 255, 255, 0.15) !important;
-}
-
-/* Animate progress on hover */
-.tech-stack-block:hover .skill-progress-arc[data-progress="95"] {
-  stroke-dashoffset: 12.56;
-}
-
-.tech-stack-block:hover .skill-progress-arc[data-progress="90"] {
-  stroke-dashoffset: 25.12;
-}
-
-.tech-stack-block:hover .skill-progress-arc[data-progress="85"] {
-  stroke-dashoffset: 37.68;
-}
-
-.tech-stack-block:hover .skill-progress-arc[data-progress="80"] {
-  stroke-dashoffset: 50.24;
-}
-
-.tech-stack-block:hover .skill-progress-arc[data-progress="75"] {
-  stroke-dashoffset: 62.80;
-}
-
-.tech-stack-block:hover .skill-progress-arc[data-progress="70"] {
-  stroke-dashoffset: 75.36;
-}
-
-.tech-stack-block:hover .skill-progress-arc[data-progress="60"] {
-  stroke-dashoffset: 100.48;
-  /* 251.2 * 0.40 = 100.48 */
-}
-
-.tech-stack-block:hover .skill-progress-arc[data-progress="30"] {
-  stroke-dashoffset: 175.84;
-  /* 251.2 * 0.70 = 175.84 */
 }
 
 /* Glow effect with green color */

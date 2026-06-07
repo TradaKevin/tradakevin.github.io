@@ -697,3 +697,39 @@
     }
 })();
 
+
+document.querySelectorAll('.tech-stack-block').forEach(block => {
+  block.addEventListener('mouseenter', () => animateArc(block));  // desktop
+  block.addEventListener('mouseleave', () => resetArc(block));    // desktop
+  block.addEventListener('click', () => toggleArc(block));        // mobile
+});
+
+function animateArc(block) {
+  block.querySelectorAll('.skill-progress-arc').forEach(arc => {
+    const progress = arc.getAttribute('data-progress');
+    const offset = 251.2 * (1 - progress / 100);
+    arc.style.strokeDashoffset = offset;
+  });
+}
+
+function resetArc(block) {
+  block.querySelectorAll('.skill-progress-arc').forEach(arc => {
+    arc.style.strokeDashoffset = 251.2; // hide again
+  });
+}
+
+function toggleArc(block) {
+  const isActive = block.classList.contains('active');
+  
+  // reset all cards first
+  document.querySelectorAll('.tech-stack-block').forEach(b => {
+    b.classList.remove('active');
+    resetArc(b);
+  });
+
+  // if it wasn't active, activate it
+  if (!isActive) {
+    block.classList.add('active');
+    animateArc(block);
+  }
+}
