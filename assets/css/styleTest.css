@@ -1,7 +1,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
@@ -220,7 +220,7 @@ body {
   background-color: #fff;
   min-height: 100%;
   margin: 0;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   line-height: 20px;
   overflow-x: hidden;
@@ -260,6 +260,18 @@ th,
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 h1,
 h2,
 h3,
@@ -292,21 +304,21 @@ h4 {
   margin-top: 10px;
   font-size: 18px;
   line-height: 24px;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h5 {
   margin-top: 10px;
   font-size: 14px;
   line-height: 20px;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h6 {
   margin-top: 10px;
   font-size: 12px;
   line-height: 18px;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 p {
@@ -316,7 +328,7 @@ p {
   line-height: 1.8;
   font-weight: 400;
   letter-spacing: 0.02em;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Ensure paragraph styling applies even with utility classes */
@@ -330,7 +342,7 @@ p.color-white-opacity-65 {
   line-height: 1.8 !important;
   font-weight: 400 !important;
   letter-spacing: 0.02em !important;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
 blockquote {
@@ -359,6 +371,9 @@ ol {
 
 
 
+
+
+
 fieldset {
   border: 0;
   margin: 0;
@@ -384,6 +399,189 @@ label {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 479px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [data-nav-menu-open] {
   text-align: center;
   background: #c8c8c8;
@@ -397,6 +595,37 @@ label {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 479px) {}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 479px) {}
+
+
 @keyframes spin {
   0% {
     transform: rotate(0);
@@ -406,6 +635,8 @@ label {
     transform: rotate(360deg);
   }
 }
+
+
 
 
 :root {
@@ -451,7 +682,7 @@ label {
 body {
   background-color: var(--black);
   color: var(--white);
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
@@ -463,7 +694,7 @@ body {
 /* Ensure all text elements use Inter regular 400 and whiter text */
 body,
 body * {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Default font-weight for text elements */
@@ -482,7 +713,7 @@ h1 {
   font-size: 32px;
   font-weight: 600;
   line-height: 1.2;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h2 {
@@ -492,7 +723,7 @@ h2 {
   font-weight: 600;
   line-height: 1.3;
   letter-spacing: -0.015em;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h3 {
@@ -501,7 +732,7 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 112%;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 p {
@@ -510,7 +741,7 @@ p {
   line-height: 1.8;
   font-weight: 400;
   letter-spacing: 0.02em;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Ensure paragraph styling applies even with utility classes */
@@ -524,7 +755,7 @@ p.color-white-opacity-65 {
   line-height: 1.8 !important;
   font-weight: 400 !important;
   letter-spacing: 0.02em !important;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
 a {
@@ -545,40 +776,33 @@ img {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;  
+  height: 100vh;
   padding: 48px;
   display: flex;
 }
 
 .page-wrapper.home-page {
-  /*background-image: linear-gradient(135deg, #ffce4c, #ff6321 75%);*/
-  background-image: linear-gradient(to bottom, #ffffff, #01ffc8 75%);
-
+  background-image: linear-gradient(135deg, #ffce4c, #ff6321 75%);
 }
 
 .page-wrapper.about-page {
-  /* background-image: linear-gradient(135deg, #ffe353, #ffc121 75%); */
-  background-image: linear-gradient(to bottom, #ffffff, #ffe353 75%);
+  background-image: linear-gradient(135deg, #ffe353, #ffc121 75%);
 }
 
 .page-wrapper.portfolio-page {
-  /* background-image: linear-gradient(135deg, #e63946, #ff4500 75%); */
-  background-image: linear-gradient(to bottom, #ffffff, #e63946 75%);
+  background-image: linear-gradient(135deg, #e63946, #ff4500 75%);
 }
 
 .page-wrapper.services-page {
-  /* background-image: linear-gradient(135deg, #2ef171, #10983f 75%); */
-  background-image: linear-gradient(to bottom, #ffffff, #2ef171 75%);
+  background-image: linear-gradient(135deg, #2ef171, #10983f 75%);
 }
 
 .page-wrapper.contact-page {
-  /*background-image: linear-gradient(135deg, #20d7ff, #00a5cd 75%);*/
-  background-image: linear-gradient(to bottom, #ffffff, #20d7ff 75%);
+  background-image: linear-gradient(135deg, #20d7ff, #00a5cd 75%);
 }
 
 .page-wrapper.maintenance-page {
-  /* background-image: linear-gradient(135deg, #5a5a5a, #383838 75%); */
-  background-image: linear-gradient(to bottom, #ffffff, #5a5a5a 75%);
+  background-image: linear-gradient(135deg, #5a5a5a, #383838 75%);
 }
 
 .page-screen {
@@ -808,7 +1032,7 @@ img {
   font-size: 12px;
   line-height: 112%;
   font-weight: 400;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Global text styling for medium-s and medium-xs when used in paragraphs or text elements */
@@ -816,7 +1040,7 @@ img {
 .medium-xs,
 .medium-l {
   font-weight: 400;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Make text whiter when used with opacity classes */
@@ -2144,6 +2368,42 @@ img {
     opacity: 1;
     transform: translateY(0);
   }
+
+  /* Animate progress on touch/click for mobile */
+  .tech-stack-block:active .skill-progress-arc[data-progress="75"],
+  .tech-stack-block.active .skill-progress-arc[data-progress="75"] {
+    stroke-dashoffset: 62.8;
+  }
+
+  .tech-stack-block:active .skill-progress-arc[data-progress="85"],
+  .tech-stack-block.active .skill-progress-arc[data-progress="85"] {
+    stroke-dashoffset: 37.68;
+  }
+
+  .tech-stack-block:active .skill-progress-arc[data-progress="60"],
+  .tech-stack-block.active .skill-progress-arc[data-progress="60"] {
+    stroke-dashoffset: 100.48;
+  }
+
+  .tech-stack-block:active .skill-progress-arc[data-progress="70"],
+  .tech-stack-block.active .skill-progress-arc[data-progress="70"] {
+    stroke-dashoffset: 75.36;
+  }
+
+  .tech-stack-block:active .skill-progress-arc[data-progress="80"],
+  .tech-stack-block.active .skill-progress-arc[data-progress="80"] {
+    stroke-dashoffset: 50.24;
+  }
+
+  .tech-stack-block:active .skill-progress-arc[data-progress="30"],
+  .tech-stack-block.active .skill-progress-arc[data-progress="30"] {
+    stroke-dashoffset: 175.84;
+  }
+
+  .tech-stack-block:active .tech-stack-block-glow-wrapper,
+  .tech-stack-block.active .tech-stack-block-glow-wrapper {
+    opacity: 1;
+  }
 }
 
 /* Radial bar container - positioned ABOVE icon */
@@ -2162,7 +2422,7 @@ img {
   font-weight: 600;
   color: #2ef171;
   /* Bright green matching reference */
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   margin-top: 30px;
   text-align: center;
   opacity: 0;
@@ -2203,6 +2463,41 @@ img {
 /* Background arc - darker gray */
 .skill-radial-bar path:first-of-type {
   stroke: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Animate progress on hover */
+.tech-stack-block:hover .skill-progress-arc[data-progress="95"] {
+  stroke-dashoffset: 12.56;
+}
+
+.tech-stack-block:hover .skill-progress-arc[data-progress="90"] {
+  stroke-dashoffset: 25.12;
+}
+
+.tech-stack-block:hover .skill-progress-arc[data-progress="85"] {
+  stroke-dashoffset: 37.68;
+}
+
+.tech-stack-block:hover .skill-progress-arc[data-progress="80"] {
+  stroke-dashoffset: 50.24;
+}
+
+.tech-stack-block:hover .skill-progress-arc[data-progress="75"] {
+  stroke-dashoffset: 62.80;
+}
+
+.tech-stack-block:hover .skill-progress-arc[data-progress="70"] {
+  stroke-dashoffset: 75.36;
+}
+
+.tech-stack-block:hover .skill-progress-arc[data-progress="60"] {
+  stroke-dashoffset: 100.48;
+  /* 251.2 * 0.40 = 100.48 */
+}
+
+.tech-stack-block:hover .skill-progress-arc[data-progress="30"] {
+  stroke-dashoffset: 175.84;
+  /* 251.2 * 0.70 = 175.84 */
 }
 
 /* Glow effect with green color */
@@ -2320,7 +2615,6 @@ img {
 .form-input.text-area {
   height: auto;
   min-height: 148px;
-  resize: vertical;
 }
 
 .form-button {
@@ -3162,18 +3456,19 @@ img {
     z-index: 101;
     display: flex;
     position: fixed;
-    top: calc(24px + env(safe-area-inset-top, 0px));
-    right: 20px;
-    bottom: auto;
-    left: auto;
-    width: 44px;
-    height: 44px;
+    inset: 92px 44px auto auto;
     min-width: 44px;
     min-height: 44px;
     align-items: center;
     justify-content: center;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1);
     touch-action: manipulation;
+  }
+
+  @media screen and (max-width: 479px) {
+    .mobile-menu-icon-wrapper {
+      inset: 80px 20px auto auto;
+    }
   }
 
   .mobile-menu-icon {
@@ -3442,11 +3737,6 @@ img {
 }
 
 @media screen and (max-width: 479px) {
-  .mobile-menu-icon-wrapper {
-    top: calc(16px + env(safe-area-inset-top, 0px));
-    right: 16px;
-  }
-
   .award-block {
     flex-flow: column;
     justify-content: flex-start;
@@ -3628,8 +3918,6 @@ img {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  width: fit-content;   /* ← add this */
-  max-width: 100%;      /* ← add this */
 }
 
 .testimonials-list:active {
@@ -4518,7 +4806,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-title {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -4527,7 +4815,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-subtitle {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
@@ -4611,7 +4899,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-tag {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -4632,7 +4920,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-project-title-single {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -4642,7 +4930,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-description-single {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
@@ -4667,7 +4955,7 @@ iframe[style*="height: 500px"] {
 }
 
 .stat-value {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -4685,7 +4973,7 @@ iframe[style*="height: 500px"] {
   gap: 8px;
   margin-top: 12px;
   color: #f59e0b;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -4705,7 +4993,7 @@ iframe[style*="height: 500px"] {
 }
 
 .stat-label {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -4728,7 +5016,7 @@ iframe[style*="height: 500px"] {
   border: 1px solid rgba(245, 158, 11, 0.2);
   border-radius: 12px;
   color: #f59e0b;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.01em;
@@ -4852,7 +5140,7 @@ iframe[style*="height: 500px"] {
 }
 
 .portfolio-nav .nav-item {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 13px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.65);
@@ -5218,7 +5506,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
   color: #ffffff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-size: 1em;
   font-weight: 500;
   cursor: pointer;
@@ -5246,8 +5534,6 @@ body {
 .full-overview-btn.active ion-icon {
   transform: rotate(180deg);
 }
-
-
 /* ============================================================
    V1 REVAMP POLISH (2026-06) — additive, non-destructive
    ============================================================ */
